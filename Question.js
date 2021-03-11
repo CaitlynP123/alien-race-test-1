@@ -15,7 +15,7 @@ class Questions{
 
     allQuestions(){
         var r
-        if(frameCount%400==0){
+        if(frameCount%1000==0){
          r = Math.round(random(1,42))
          switch(r){
             case 1 : this.q = "What does the word 'thy' mean?"
