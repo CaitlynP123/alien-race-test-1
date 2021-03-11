@@ -282,7 +282,7 @@ for(var i = 0; i < alienGroup.length; i++){
   rocket.move()
   alien.spawnAlien()
   
-  if(frameCount % 400==0){
+  if(frameCount % 1000==0){
     gameState = 2
   }
 
